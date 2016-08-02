@@ -6,6 +6,7 @@ compute = function(input_string) {
   operator = values[2]
   num1 = as.integer(values[3])
   result = switch(operator,
+                  '/' = num0 / num1,
                   '+' = num0 + num1,
                   '-' = num0 - num1)
    NA)
