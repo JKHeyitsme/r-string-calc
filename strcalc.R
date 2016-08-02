@@ -6,5 +6,9 @@ compute = function(input_string) {
   result = switch(operator,
                   '+' = num0 + num1,
                   '-' = num0 - num1)
+   NA)
+  if (is.na(result)) {
+    print('unknown operator!')
+  }
   return(result)
 }
